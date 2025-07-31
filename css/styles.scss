@@ -13,6 +13,32 @@ h1{
     color: #ff0000;
 }
 
+.mbtn{
+    background-color: blue;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 15px 15px 0;
+    border-radius: 5px;
+    border-color: $beige;
+    border-style: solid;
+    border-width: 2px;
+    transform: scale(1);
+    transition: all ease-in-out 0.2s;
+    a{
+        padding: 10px;
+        color: $beige;
+        transition: all ease-in-out 0.15;
+        &:hover{
+            color: blue;
+        }
+    }
+
+    &:hover{
+        background-color: $beige;
+        transform: scale(1.2);        
+    }
+}
+
 nav{
     li{
         list-style-type: none;
