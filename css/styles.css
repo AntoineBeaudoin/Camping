@@ -1,3 +1,11 @@
+header, footer {
+  background-color: rgb(13, 155, 13);
+}
+
+main {
+  background-color: rgb(203, 203, 158);
+}
+
 h1 {
   color: #ff0000;
 }
