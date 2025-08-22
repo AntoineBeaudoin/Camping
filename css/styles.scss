@@ -1,5 +1,12 @@
 $vertForet : rgb(13, 155, 13);
 $beige : rgb(203, 203, 158);
+$textePrincipal : #333;
+$texteSecondaire : #ff0000;
+$couleurBtn : blue;
+
+*{
+    color: $textePrincipal;
+}
 
 header, footer{
     background-color: $vertForet;
@@ -10,11 +17,12 @@ main{
 }
 
 h1{
-    color: #ff0000;
+    color: $texteSecondaire;
+    text-decoration: underline;
 }
 
 .mbtn{
-    background-color: blue;
+    background-color: $couleurBtn;
     text-align: center;
     text-decoration: none;
     margin: 15px 15px 15px 0;
@@ -29,7 +37,7 @@ h1{
         color: $beige;
         transition: all ease-in-out 0.15;
         &:hover{
-            color: blue;
+            color: $couleurBtn;
         }
     }
 
